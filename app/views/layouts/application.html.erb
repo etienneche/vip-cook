@@ -1,15 +1,22 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>VipCook</title>
-    <%= csrf_meta_tags %>
-    <%= csp_meta_tag %>
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+ <link href="https://fonts.googleapis.com/css?family=Roboto:400,900&display=swap" rel="stylesheet">
+ <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+ <title>VipCook</title>
+ <%= csrf_meta_tags %>
+ <%= csp_meta_tag %>
+ <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css" />
+ <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+</head>
+<body>
 
-    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
-  </head>
+  <%= yield %>
 
-  <body>
-    <%= yield %>
-  </body>
+<!--   ici y a du javascript tag qqlq chose-->
+  <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+</body>
 </html>

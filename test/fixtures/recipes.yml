@@ -1,0 +1,35 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  title: MyString
+  description: MyText
+  menu_spot: MyString
+  wine: MyString
+  quantity_serving: 1
+  time_cooking: 1
+  time_prep: 1
+  time_plating: 1
+  time_marinade: 1
+  price_waiting: 1
+  price_serving: 1
+  price_work: 1
+  TOTAL_time: MyString
+  : 1
+  TOTAL_price: 1
+
+two:
+  title: MyString
+  description: MyText
+  menu_spot: MyString
+  wine: MyString
+  quantity_serving: 1
+  time_cooking: 1
+  time_prep: 1
+  time_plating: 1
+  time_marinade: 1
+  price_waiting: 1
+  price_serving: 1
+  price_work: 1
+  TOTAL_time: MyString
+  : 1
+  TOTAL_price: 1

@@ -1,0 +1,19 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  price_U: 1
+  conditionnng: MyString
+  quantity: 1
+  quantity_unit: 1
+  row_shop: MyString
+  season: one
+  TOTAL_price: 1
+
+two:
+  price_U: 1
+  conditionnng: MyString
+  quantity: 1
+  quantity_unit: 1
+  row_shop: MyString
+  season: two
+  TOTAL_price: 1
