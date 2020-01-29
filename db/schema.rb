@@ -12,16 +12,13 @@
 
 ActiveRecord::Schema.define(version: 2020_01_28_141612) do
 
-  # These are extensions that must be enabled in order to support this database
-  enable_extension "plpgsql"
-
   create_table "ingredients", force: :cascade do |t|
     t.integer "price_U"
     t.string "conditionnng"
     t.integer "quantity"
     t.integer "quantity_unit"
     t.string "row_shop"
-    t.bigint "season_id", null: false
+    t.integer "season_id", null: false
     t.integer "TOTAL_price"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
@@ -29,8 +26,8 @@ ActiveRecord::Schema.define(version: 2020_01_28_141612) do
   end
 
   create_table "list_ingredients", force: :cascade do |t|
-    t.bigint "ingredient_id", null: false
-    t.bigint "recipe_id", null: false
+    t.integer "ingredient_id", null: false
+    t.integer "recipe_id", null: false
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
     t.index ["ingredient_id"], name: "index_list_ingredients_on_ingredient_id"

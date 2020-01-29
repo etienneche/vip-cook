@@ -13,9 +13,10 @@
  <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
 </head>
 <body>
-
+  <%= render 'shared/navbar' %>
   <%= yield %>
-
+  <%= render 'shared/flashes' %>
+  <%= render 'shared/footer' %>
 <!--   ici y a du javascript tag qqlq chose-->
   <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
 </body>
