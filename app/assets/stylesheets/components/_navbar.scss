@@ -1,0 +1,26 @@
+.section_menu {
+  background-color: lightgrey;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  position: sticky;
+  top: 0px;
+  opacity: .8;
+
+  .topnav {
+    display: flex;
+    justify-content: space-around;
+    // box-shadow:;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+  // font-family:
+
+  &:hover {
+    color: red;
+  }
+}
+

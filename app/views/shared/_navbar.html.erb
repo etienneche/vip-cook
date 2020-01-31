@@ -1,9 +1,11 @@
-<div class='section menu'>
+<div class='section_menu'>
   <nav class="navbar sticky-top navbar-expand-lg navbar-custom">
     <div class="topnav">
-      <a href="https://www.fetysh.club/" class="active">Home</a>
-      <a href="https://airbnb-thesleeplessone.herokuapp.com/">Contact</a>
-      <a href="https://linkedin.com/in/etienne-cherri/">About</a>
+      <%= link_to "Cookbook", recipes_path %>
+      <%= link_to  "Create new recipe", new_recipe_path %>
+      <%= link_to "Home", root_path %>
+      <%= link_to "Contact", new_rails_conductor_inbound_email_path %>
+           <a href="https://linkedin.com/in/etienne-cherri/">About</a>
     </div>
   </nav>
 </div>

@@ -16,7 +16,16 @@
  /* PAGES */
 @import "pages/index";
 
- /* COMPONENTS */
 
- @import "components/banner";
-  @import "components/content";
+ /* COMPONENTS */
+@import "components/navbar";
+@import "components/banner";
+@import "components/content";
+@import "components/contact";
+
+/* BODY */
+
+body {
+  margin: 0;
+  padding: 0;
+}
