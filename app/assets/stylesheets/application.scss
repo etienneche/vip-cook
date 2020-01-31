@@ -13,4 +13,10 @@
  *= require_tree .
  *= require_self
  */
+ /* PAGES */
 @import "pages/index";
+
+ /* COMPONENTS */
+
+ @import "components/banner";
+  @import "components/content";
