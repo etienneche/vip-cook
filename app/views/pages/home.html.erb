@@ -1,31 +1,25 @@
 <h1>home web app</h1>
-<p>this page is to explain the app, how to get it, why to get it, and how to use it:
-simple and easy, its save time, keep track of your recipes and all their cost.</p>
-<h3>need a link to "Home cookbook"</h3>
-<h3>need a link to "tutorial"</h3>
-<h3>need a link to "seasons"</h3>
-<h3>find a way to use all customer as commercials !!</h3>
+
+
 <%= link_to "Cookbook", recipes_path %>
 <%= link_to  "Create new recipe", new_recipe_path %>
 
 <div class='section_banner'>
   <div class="banner">
-    <a href="#" class="button">JE DECOUVRE</a>
-    <h1>COOKBOOK <strong>Recipes</strong></h1>
+<%= link_to "Cookbook", recipes_path %>    <h1>COOKBOOK <strong>Recipes</strong></h1>
     <p>VIP-COOK est une application qui va vous faire gagner du temps et de l'argent.</p>
   </div>
 </div>
-<%= link_to 'COOKBOOK', recipes_path %>
+<%= link_to  "Create new recipe", new_recipe_path %>
 <div class='section_content'>
   <div class="content">
     <a href="#" class="button">JE DECOUVRE</a>
-    <h1>PROFIL PAGE</h1>
+    <h1>Add your own</h1>
     <p>VIP-COOK is a sellin plateform</p>
   </div>
 </div>
 <%= link_to 'ALL MY INGREDIENTS', ingredients_path %>
 <%= link_to 'ADD INGREDIENTS', new_ingredient_path %>
-<%= link_to 'EDIT MY INGREDIENTS', edit_ingredient_path %>
 
 
 <div class="section_contact">
