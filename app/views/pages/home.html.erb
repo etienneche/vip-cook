@@ -6,8 +6,8 @@
 
 <div class='section_banner'>
   <div class="banner">
-<%= link_to "Cookbook", recipes_path %>
-<h1>VIP-COOK <strong>APP POUR ARRONDIR VOS FIN DE MOIS</strong></h1>
+    <%= link_to "Cookbook", recipes_path %>
+    <h1>VIP-COOK <strong>APP POUR ARRONDIR VOS FIN DE MOIS</strong></h1>
     <p>Pourquoi utiliser VIP-COOK ?</p>
     <ul>
       <li>APP</li>
@@ -19,24 +19,34 @@
       <li>Vous pouvez vendre votre technique</li>
       <li>Vous pouvez vendre vos plats dans votre région</li>
     </ul>
+    <%= link_to "Télécharger", root_path %>
   </div>
 </div>
-<%= link_to  "Create new recipe", new_recipe_path %>
 <div class='section_content'>
   <div class="content">
     <a href="#" class="button">JE DECOUVRE</a>
-    <h1>CookBook</h1>
+    <h1>Livre de recette</h1>
     <p>Remplir vos recettes et les gérer</p>
+    <ul>
+      <li>Calculer vos cout de production</li>
+      <li>Définir prix de vente et calculer vos bénéfices</li>
+      <li>Générer votre liste de courses</li>
+      <li>Connaitre la saison de votre recette</li>
+      <li>Impliquer les producteurs de votre région.</li>
+    </ul>
+    <%= link_to  "Créer une nouvelle Recette", new_recipe_path %>
+
   </div>
 </div>
-<%= link_to 'ALL MY INGREDIENTS', ingredients_path %>
-<%= link_to 'ADD INGREDIENTS', new_ingredient_path %>
 
 
 <div class="section_contact">
   <div class="contact">
-    <a href="#" class="button">JE DECOUVRE</a>
-    <h1>how does it work ?</h1>
+    <a href="#" class="button">INGREDIENTS</a>
+
     <p>VIP-COOK .</p>
   </div>
+  <%= link_to 'ALL MY INGREDIENTS', ingredients_path %>
+  <%= link_to 'ADD INGREDIENTS', new_ingredient_path %>
+
 </div>
